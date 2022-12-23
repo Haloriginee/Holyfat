@@ -1,0 +1,11 @@
+.holyfat__header {
+  background-color: var(--color-black)
+}
+
+.holyfat__header-h1 {
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  letter-spacing: 0.04em;
+  font-size: 80px;
+  font-weight: 800;
+}

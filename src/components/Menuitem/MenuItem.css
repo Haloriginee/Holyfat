@@ -1,0 +1,35 @@
+.holyfat__menuitem {
+  width: 100%;
+  margin:  1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.holyfat__menuitem-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.holyfat__menuitem-sub {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+.holyfat__menuitem-name {
+ flex: 1;
+}
+
+.holyfat__menuitem-space {
+  margin: 0 1rem;
+  width: 85px;
+  height: 1px;
+  background: var(--color-golden);
+}
+
+.holyfat__menuitem-price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}

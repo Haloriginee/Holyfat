@@ -1,0 +1,84 @@
+.holyfat__specialMenu {
+  background: var(--color-black);
+  flex-direction: column;
+}
+
+.holyfat__specialMenu-title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.holyfat__specialMenu-menu {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.holyfat__specialMenu-menu_heading {
+  font-family: var(--font-base);
+  font-size: 45px;
+  line-height: 58px;
+  font-weight: 600px;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+}
+
+.holyfat__specialMenu-menu_wine,
+.holyfat__specialMenu-menu_cocktails {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.holyfat__specialMenu-menu_img {
+  width: 410px;
+  margin: 0 2 rem;
+}
+
+.holyfat__specialMenu-menu_img img {
+  width: 100%;
+  height: auto;
+}
+
+.holyfat__specialMenu-menu_item {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 2000px) {
+  .holyfat__specialMenu-menu_img {
+    width: 650px;
+  }
+
+  .holyfat__specialMenu-menu_img img {
+    height: 910px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .holyfat__specialMenu-menu {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .holyfat__specialMenu-menu_img {
+    margin: 3rem 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .holyfat__specialMenu-menu_img {
+    width: 100%;
+  }
+
+  .holyfat__specialMenu-menu_heading {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
